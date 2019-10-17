@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="11"
+    android:id="@+id/ly_linear"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="550dp"
+    android:orientation="vertical">
+      <LinearLayout
+          android:weightSum="3"
+          android:layout_weight="2"
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+          <Button
+              android:id="@+id/btn_vn"
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent"
+              android:paddingTop="10dp"
+              android:paddingStart="5dp"
+              android:paddingEnd="5dp"
+              android:paddingBottom="5dp"
+              android:background="@drawable/button_selected"
+              android:drawableTop="@drawable/vn"
+              android:text="Việt Nam" />
+          <Button
+              android:id="@+id/btn_us"
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent"
+              android:paddingTop="10dp"
+              android:paddingStart="5dp"
+              android:paddingEnd="5dp"
+              android:paddingBottom="5dp"
+              android:background="@drawable/button_selected"
+              android:drawableTop="@drawable/us"
+              android:text="United State" />
+          <Button
+              android:id="@+id/btn_uru"
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent"
+              android:paddingTop="10dp"
+              android:paddingStart="5dp"
+              android:paddingEnd="5dp"
+              android:paddingBottom="5dp"
+              android:background="@drawable/button_selected"
+              android:drawableTop="@drawable/uru"
+              android:text="Uruguay" />
+
+      </LinearLayout>
+
+
+
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_holy"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/button_selected"
+            android:drawableTop="@drawable/holysee"
+            android:text="Holy See"
+            tools:ignore="NestedWeights" />
+        <Button
+            android:id="@+id/btn_vincent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/button_selected"
+            android:drawableTop="@drawable/vinsen"
+            android:text="Vincent" />
+        <Button
+            android:id="@+id/btn_vene"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/button_selected"
+            android:drawableTop="@drawable/vene"
+            android:text="Venezuela" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_virgin"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/button_selected"
+            android:drawableTop="@drawable/virgin"
+            android:text="Virgin"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/btn_korea"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/button_selected"
+            android:drawableTop="@drawable/korea"
+            android:text="Korea" />
+        <Button
+            android:id="@+id/kosovo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/button_selected"
+            android:drawableTop="@drawable/kosovo"
+            android:text="Kosovo" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_vanatu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/button_selected"
+            android:drawableTop="@drawable/vanuatu"
+            android:text="Vanuatu" />
+        <Button
+            android:id="@+id/btn_uzube"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/button_selected"
+            android:drawableTop="@drawable/uzube"
+            android:text="Uzubekistan" />
+        <Button
+            android:id="@+id/btn_mayote"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/button_selected"
+            android:drawableTop="@drawable/mayotee"
+            android:text="Mayotee" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:background="@drawable/corner_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_jamai"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/button_selected"
+            android:drawableTop="@drawable/jamaica"
+            android:text="Jamaica" />
+        <Button
+            android:id="@+id/btn_kazak"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/button_selected"
+            android:drawableTop="@drawable/kz"
+            android:text=" Kazakhstan" />
+        <Button
+            android:id="@+id/btn_domi"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/button_selected"
+            android:drawableTop="@drawable/doan"
+            android:text="Dominica" />
+
+    </LinearLayout>
+
+</LinearLayout>
